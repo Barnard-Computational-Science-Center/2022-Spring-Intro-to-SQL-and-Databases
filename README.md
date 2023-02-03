@@ -10,11 +10,11 @@
  - You can also [download Postgres](https://www.postgresql.org/download/) and install it on your computer.
  - Alternatively, you can create an instance on any of the major cloud providers (AWS, Microsoft Azure, Google Cloud, Digital Ocean). 
 - If you signed up for [bit.io](bit.io), you can use the built-in editor. I'll use the built-in editor to keep our environments consistent. You can also access your database with an external GUI client:
- - [pgAdmin (free)](https://www.pgadmin.org)
- - [DBeaver (free)](https://dbeaver.io)
- - [Datagrip (free for students)](https://www.jetbrains.com/community/education/#students)
- - [Postico (discounted for students, Mac only)](https://eggerapps.at/postico2/buy.html)
- - [TablePlus (my preferred tool - discounted for students)](https://tableplus.com/blog/2018/04/education-plan.html)
+  - [pgAdmin (free)](https://www.pgadmin.org)
+  - [DBeaver (free)](https://dbeaver.io)
+  - [Datagrip (free for students)](https://www.jetbrains.com/community/education/#students)
+  - [Postico (discounted for students, Mac only)](https://eggerapps.at/postico2/buy.html)
+  - [TablePlus (my preferred tool - discounted for students)](https://tableplus.com/blog/2018/04/education-plan.html)
 
 #### Learning goals
 - Why you need and should use a database
