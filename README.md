@@ -6,9 +6,9 @@
 - [Download Github repository:](https://github.com/Barnard-Computational-Science-Center/2022-Spring-Intro-to-SQL-and-Databases)
   - _Code > Download ZIP_
 - Get access to a relational database system (preferably Postgres).
- - [The easiest way I've found is through bit.io](https://bit.io/), which is what I will use for this workshop. It's free to create an account with up to 3 databases. 
- - You can also [download Postgres](https://www.postgresql.org/download/) and install it on your computer.
- - Alternatively, you can create an instance on any of the major cloud providers (AWS, Microsoft Azure, Google Cloud, Digital Ocean). 
+  - [The easiest way I've found is through bit.io](https://bit.io/), which is what I will use for this workshop. It's free to create an account with up to 3 databases. 
+  - You can also [download Postgres](https://www.postgresql.org/download/) and install it on your computer.
+  - Alternatively, you can create an instance on any of the major cloud providers (AWS, Microsoft Azure, Google Cloud, Digital Ocean). 
 - If you signed up for [bit.io](bit.io), you can use the built-in editor. I'll use the built-in editor to keep our environments consistent. You can also access your database with an external GUI client:
   - [pgAdmin (free)](https://www.pgadmin.org)
   - [DBeaver (free)](https://dbeaver.io)
@@ -32,7 +32,7 @@
 - [The Art of PostgreSQL by Dimitri Fontaine](https://theartofpostgresql.com/)
 - [Official Postgres repository](https://git.postgresql.org/gitweb/?p=postgresql.git;a=summary)
 
---
+---
 
 #### 1. Introduction
 
@@ -204,7 +204,7 @@ Then query the data:
 SELECT * FROM vi_cities_with_states
 ```
 
---
+---
 
 #### 2.0 Normalization exercise
 
@@ -219,7 +219,7 @@ Instructions:
 2. Use the `Normalize customers` tab to get an idea of what we should do.
 3. In the `Assignment` tab, try applying normalization concepts to the `item` column in the `sales` table.
 
---
+---
 
 #### 3. Build the tables in the normalization exercise
 
@@ -416,7 +416,7 @@ Select your data:
 SELECT * FROM vi_total_sales_per_customer
 ```
 
---
+---
 
 #### 4. Vehicle collision database
 
@@ -578,6 +578,8 @@ GROUP BY
 ORDER BY
 	count DESC
 ```
+
+---
 
 #### 5. Finishing up, ideas to explore...
 
